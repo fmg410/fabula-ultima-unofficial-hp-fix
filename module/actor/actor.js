@@ -214,7 +214,7 @@ export class FabulaUltimaActor extends Actor {
             // Check for crisis
             if (this.system.hp.value <= this.system.hp.crisis) {
                 let effects = this.getEmbeddedCollection("ActiveEffect").contents;
-                let relEffect = effects.filter((effect) => effect.name === "Crisis");
+                let relEffect = effects.filter((effect) => effect.name === "FU.Effects.crisis.label");
 
                 // Crisis is not yet assigned
                 if (relEffect.length == 0) {
@@ -226,7 +226,7 @@ export class FabulaUltimaActor extends Actor {
             // The creature is not in Crisis or it is no longer in Crisis
             else {
                 let effects = this.getEmbeddedCollection("ActiveEffect").contents;
-                let relEffect = effects.filter((effect) => effect.name === "Crisis");
+                let relEffect = effects.filter((effect) => effect.name === "FU.Effects.crisis.label");
 
                 if (relEffect.length > 0) {
                     this.deleteEmbeddedDocuments(
