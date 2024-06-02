@@ -3,15 +3,14 @@
     "title": "Fabula Ultima (Unofficial)",
     "description": "An unofficial implementation of the Fabula Ultima ruleset for Foundry VTT.",
     "authors": [{ "name": "razage", "discord": "razage", "url": "https://github.com/razage" }],
-    "url": "https://github.com/razage/fabula-ultima-unofficial",
+    "url": "https://github.com/fmg410/fabula-ultima-unofficial-hp-fix",
     "license": "LICENSE.txt",
     "version": "0.8.28b",
     "compatibility": {
         "minimum": "11",
         "verified": "11.315"
     },
-    "manifest": "https://raw.githubusercontent.com/razage/fabula-ultima-unofficial/master/system.json",
-    "download": "https://github.com/razage/fabula-ultima-unofficial/archive/refs/heads/master.zip",
+    "manifest": "https://raw.githubusercontent.com/fmg410/fabula-ultima-unofficial-hp-fix/master/system.json",
     "primaryTokenAttribute": "hp",
     "secondaryTokenAttribute": "mp",
     "esmodules": ["module/fabulaultima.js"],
